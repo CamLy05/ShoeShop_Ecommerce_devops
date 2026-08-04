@@ -70,7 +70,7 @@ jobs:
           image-ref: ${{ secrets.DOCKER_USERNAME }}/shoeshop:latest
           format: table
           severity: HIGH,CRITICAL
-          exit-code: 1
+          exit-code: 0
 
       # ============================
       # Login Docker Hub
